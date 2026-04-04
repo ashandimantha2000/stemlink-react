@@ -1,13 +1,20 @@
-import React, { useState } from 'react'
+import React from "react";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 function CustomerHook() {
-    const [name, setName] = useState()
+  const [name, setName] = useLocalStorage("", "");
+
   return (
     <div>
-        <input type="text" placeholder='enter your name' onChange={e=>setName(e.target.value)} />
-        <h4>Your name is {name}</h4>
+      <h6>Customer Hook Example 2</h6>
+      <input
+        type="text"
+        placeholder="enter the name"
+        onChange={(e) => setName(e.target.value)}
+      />
+      <h4>Entered name is: {name}</h4>
     </div>
-  )
+  );
 }
 
-export default CustomerHook
+export default CustomerHook;

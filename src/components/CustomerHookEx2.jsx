@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import useCounter from "../hooks/useCounter";
 
 function CustomerHookEx2() {
@@ -10,6 +9,7 @@ function CustomerHookEx2() {
       <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
     </div>
+    
   );
 }
 
