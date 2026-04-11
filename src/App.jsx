@@ -3,6 +3,7 @@ import LoginForm from "./components/ControlledForms/LoginForm";
 import HTMLForms from "./components/HTMLForms";
 import RHFForm from "./components/RHFForms/RHFForm";
 import WithValidations from "./components/RHFForms/WithValidations";
+import SignUpWithRHFAndZod from "./components/SignUpWithRHFAndZod";
 import UncontrolledForm from "./components/UncontrolledForms/UncontrolledForm";
 import ZodoForm from "./components/Zodo/ZodoForm";
 import "./index.css";
@@ -19,7 +20,8 @@ function App() {
       {/* <RHFForm /> */}
       {/* <Test /> */}
       {/* <WithValidations /> */}
-      <ZodoForm />
+      {/* <ZodoForm /> */}
+      <SignUpWithRHFAndZod />
     </div>
   );
 }
