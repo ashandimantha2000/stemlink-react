@@ -1,30 +1,25 @@
+import ControlledForm from "./components/ControlledForms/ControlledForm";
+import LoginForm from "./components/ControlledForms/LoginForm";
+import HTMLForms from "./components/HTMLForms";
+import RHFForm from "./components/RHFForms/RHFForm";
+import WithValidations from "./components/RHFForms/WithValidations";
+import UncontrolledForm from "./components/UncontrolledForms/UncontrolledForm";
+import ZodoForm from "./components/Zodo/ZodoForm";
 import "./index.css";
-import UseState from "./components/UseState";
-import UseRef from "./components/UseRef";
-import InputFocus from "./components/InputFocus";
-import Counter from "./components/Counter";
-import CustomerHook from "./components/CustomerHook";
-import CustomerHookEx2 from "./components/CustomerHookEx2";
-import Home from "./components/Home";
-import About from "./pages/About/About";
-import Text from "./components/Text";
-import CurrentDate from "./components/CurrentDate";
+import Test from "./Test";
+
 
 function App() {
   return (
     <div>
-      <CurrentDate />
-      {/* <Text /> */}
-      {/* <CustomerHook /> */}
-      {/* <About /> */}
-      {/* <Home /> */}
-      {/* <CustomerHookEx2 /> */}
-      {/* <UseState />
-      <hr />
-      <UseRef />
-      <hr />
-      <InputFocus />
-      <Counter /> */}
+      {/* <HTMLForms /> */}
+      {/* <ControlledForm /> */}
+      {/* <LoginForm /> */}
+      {/* <UncontrolledForm /> */}
+      {/* <RHFForm /> */}
+      {/* <Test /> */}
+      {/* <WithValidations /> */}
+      <ZodoForm />
     </div>
   );
 }
