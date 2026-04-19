@@ -4,8 +4,6 @@ import UserProfile from "./components/BasicStates/UserProfile";
 import PDUserProfile from "./components/PropDrilling/PDUserProfile";
 import Layout from "./components/UseContextAPI/Layout";
 import { UserProvider } from "./context/UserContext";
-import CartLayout from "./components/CartApp/CartLayout";
-import { CartProvider } from "./context/CartContext";
 import SignUpWithRHFAndZod from "./components/Zodo/SignUpWithRHFAndZod";
 
 function App() {
@@ -19,9 +17,6 @@ function App() {
         <Layout />
       </UserProvider> */}
 
-      {/* <CartProvider>
-        <CartLayout />
-      </CartProvider> */}
     </div>
   );
 }
