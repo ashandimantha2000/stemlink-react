@@ -25,6 +25,7 @@ function App() {
 
       <Header />
       <ThemeToggle />
+      <br />
       <Content />
     </div>
   );

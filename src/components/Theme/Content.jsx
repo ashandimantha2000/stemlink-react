@@ -6,7 +6,8 @@ function Content() {
 
   const style = {
     background: theme === "light" ? "#fff": "#333",
-    color: theme === "light" ? "#000" : "#fff"
+    color: theme === "light" ? "#000" : "#fff",
+    padding : "20px"
   }
   return (
     <div style={style}>

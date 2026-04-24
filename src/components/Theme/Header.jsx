@@ -5,7 +5,7 @@ function Header() {
   const theme = useThemeStore((state) => state.theme);
   return (
     <div>
-      <h3>Current Theme: {theme}</h3>
+      <h3>Current Theme: {theme} {theme == "light"? "☀️": "🌙"}</h3>
     </div>
   );
 }
